@@ -101,8 +101,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "mxonline",
         'USER': 'root',
-        'PASSWORD': "123456",
-        'HOST': "127.0.0.1"
+        'PASSWORD': "password",
+        'HOST': "10.211.55.13"
     }
 }
 
@@ -150,10 +150,10 @@ STATICFILES_DIRS = [
 
 EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25
-EMAIL_HOST_USER = "jingguanliuye@sina.com"
-EMAIL_HOST_PASSWORD = "admin123"
+EMAIL_HOST_USER = "yangshun2019@sina.com"
+EMAIL_HOST_PASSWORD = "ys301416,"
 EMAIL_TLS = False
-EMAIL_FROM = "jingguanliuye@sina.com"
+EMAIL_FROM = "yangshun2019@sina.com"
 
 # 配置上传文件的存放路径
 MEDIA_URL = '/media/'
